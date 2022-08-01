@@ -36,7 +36,7 @@ const LobeNavbar = (props) => {
         </Navbar>
 
 
-    )
+    );
 
 }
 
