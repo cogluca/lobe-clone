@@ -26,7 +26,7 @@ const LobeNavbar = (props) => {
                 <Button style={{
                     background: "\n" +
                         "#04ddb2", outlineColor: "\n" +
-                        "#04ddb2"
+                        "#04ddb2", borderColor: "#04ddb2"
                 }}>
                     Download
                 </Button>
