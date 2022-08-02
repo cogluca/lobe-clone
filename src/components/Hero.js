@@ -45,7 +45,7 @@ const Hero = (props) => {
 
             </Container>
 
-            <Col>
+            <Col style={{marginTop: "50px"}}>
 
                 <h1 style={{fontWeight: "bold"}}>
                     Train your App <br/> with Lobe
@@ -54,7 +54,8 @@ const Hero = (props) => {
                 <Button style={{
                     background: "\n" +
                         "#04ddb2", outlineColor: "\n" +
-                        "#04ddb2", borderColor: "#04ddb2"
+                        "#04ddb2", borderColor: "#04ddb2",
+                    marginTop: "50px"
                 }}>
                     Download
                 </Button>
