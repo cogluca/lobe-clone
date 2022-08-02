@@ -9,7 +9,7 @@ const LobeNavbar = (props) => {
                 "#fff"}} >
             <Container className="m-auto navbar flex-grow-1 align-content-around flex-row navbar-expand" style={{paddingTop: "0px", paddingBottom: "0px", display:"flex", marginLeft:"0px", marginRight: "0px"}}>
                 <Navbar.Brand href="#home">
-                    <img src="/static_content/Lobo.png" alt={"Lobo logo. Click for home"} style={{maxWidth: "5vw", height: "auto", width: "100%"}}/>
+                    <img src="/static_content/Lobo.png" alt={"Lobo logo. Click for home"} style={{maxWidth: "5vw", height: "auto", width: "50%"}}/>
                 </Navbar.Brand>
                 <Nav className="flex" style={{
                     display: "flex",

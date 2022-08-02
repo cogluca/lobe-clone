@@ -5,9 +5,9 @@ const LoboFooter = (props) => {
 
     return (
 
-        <Container className="card-footer" style={{position: "sticky", paddingTop: "40px"}}>
+        <Container  style={{ paddingTop: "40px", alignItems: "center", alignContent:"space-evenly"}}>
             <hr/>
-            <Row>
+            <Row className="flex-grow-1 flex-row align-items-center" style={{display: "flex", textAlign: "center"}}>
                 <Col>
                     <img src="/static_content/Lobo.png" alt="small product logo" style={{width: "20%", height: "auto"}}/>
                     <br/>
